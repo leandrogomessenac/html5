@@ -43,7 +43,7 @@ nav ul li a {
 	font-weight: bold ; /* negrito */
 }
 
-nav ul li a:hover { /* passar o mouse em cima do li a */
+nav ul li a:hover { /* passar o mouse em cima do link a */
 	color:#34ABE0;
 }
 

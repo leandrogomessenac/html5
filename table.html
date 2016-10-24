@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+">
+</head>
+<body>
+	<table class="table table-hover">
+		<caption><em>A test table with merged cells</em></caption>
+		<thead><!--isso significa cabeçalho-->
+			Cabeçalho
+		</thead>
+		<tfoot><!--isso significa rodapé-->
+			<tr class="danger"><td colspan="4">Rodapé</td></tr><!-- colspan 4 aqui foi usado para ocupar td o espaço do roda pé-->
+		</tfoot>
+		<tbody>
+		<tr> <!-- tr = significa linha-->
+			<th rowspan="2"></th> <!-- th = titulo-->
+			<th colspan="2">Average</th>
+	    	<th rowspan="2">Red<br>eyes</th>
+	    </tr>	
+		<tr>
+			<th>height</th>
+			<th>weight</th>
+		</tr>	
+		<tr>
+			<th>Males</th>
+			<td>1.9</td>
+			<td>0.003</td>
+			<td>40%</td>
+		</tr>	
+		<tr>
+			<th>Females</th>
+			<td>1.7</td>
+			<td>0.002</td>
+			<td>43%</td>
+		</tr>
+		</tbody>	
+	</table>
+</body>
+</html>
